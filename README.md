@@ -41,8 +41,6 @@ int main() {
 }
 ```
 
----
-
 ##### encapsulation 
 combine data and other function
 
@@ -64,3 +62,15 @@ void setSalary (double s) {
 double getSalary() {
 return salary;
 }
+```
+
+##### constructor
+object creation used for initialisation
+
+```cpp
+public:
+Teacher() {
+cout << "Hi, I am constructor\n";
+}
+```
+```
