@@ -1,7 +1,10 @@
 # Oops
 Oops programming 
 #### index
-
+1. acess modifiers
+2. encapsulation
+3. constructor
+   
 ### syntax explanation 
 ``` Cpp
 #include <iostream>
@@ -39,3 +42,25 @@ int main() {
 ```
 
 ---
+
+##### encapsulation 
+combine data and other function
+
+```cpp
+#include <iostream>
+using namespace std;
+class Teacher {
+    double salary;
+    public:
+    string name;
+    string dept;
+    string subject;
+    
+//setter
+void setSalary (double s) {
+    salary = s;
+}
+
+double getSalary() {
+return salary;
+}
