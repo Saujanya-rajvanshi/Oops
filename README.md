@@ -79,3 +79,17 @@ Teacher () {
     dept = "Computer Science";
 }
 ```
+```public:
+//non-parameterized
+Teacher() {
+dept = "Computer Science";
+
+//parameterized
+Teacher(string n, string d, string s, double sal) {
+name = n;
+dept =xd;
+subject = s;
+salary = sal;
+}
+
+```
