@@ -74,3 +74,8 @@ cout << "Hi, I am constructor\n";
 }
 ```
 ```
+public:
+Teacher () {
+    dept = "Computer Science";
+}
+```
