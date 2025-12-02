@@ -109,4 +109,11 @@ Student(Student &obj) {
     this->cgpaPtr = obj.cgpaPtr;
 }
 
+//deep copy
+Student(Student &obj){
+    this->name = obj.name;
+    cgpaPtr = new double;
+    cgpaPtr = *obj.cgpaPtr;
+}
+
 ```
