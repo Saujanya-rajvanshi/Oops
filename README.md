@@ -102,4 +102,11 @@ Teacher(Teacher &org0bj) {
     this->subject = org0bj.subject;
     this->salary = org0bj. salary;
 }
+
+//shallow copy
+Student(Student &obj) {
+    this->name = obj.name;
+    this->cgpaPtr = obj.cgpaPtr;
+}
+
 ```
