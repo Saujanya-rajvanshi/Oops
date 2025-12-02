@@ -93,3 +93,13 @@ salary = sal;
 }
 
 ```
+```
+//copy constructor
+Teacher(Teacher &org0bj) {
+    cout << "i am custom copy constructor ... \n";
+    this->name = org0bj.name;
+    this->dept = org0bj.dept;
+    this->subject = org0bj.subject;
+    this->salary = org0bj. salary;
+}
+```
