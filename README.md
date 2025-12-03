@@ -4,6 +4,7 @@ Oops programming
 1. acess modifiers
 2. encapsulation
 3. constructor
+4. shallow vs deep copy
    
 ### syntax explanation 
 ``` Cpp
@@ -116,4 +117,18 @@ Student(Student &obj){
     cgpaPtr = *obj.cgpaPtr;
 }
 
+```
+```cpp
+int main() {
+    Student s1("rahul kumar", 8.9);
+    Student s2(s1); //"neha kumar"
+
+    s1.getInfo();
+    *(s2.cgpaPtr) = 9.2;
+    s1.getInfo();
+
+    s2.name = "neha";
+    s2.getInfo();
+    return 0;
+}
 ```
