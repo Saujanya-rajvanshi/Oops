@@ -6,6 +6,7 @@ Oops programming
 3. constructor
 4. shallow vs deep copy
 5. destructor
+6. inheritance
    
 ### syntax explanation 
 ``` Cpp
