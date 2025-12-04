@@ -133,3 +133,9 @@ int main() {
     return 0;
 }
 ```
+```cpp
+//destructor
+~Student() {
+    cout << "Hi, I delete everything\n";
+}
+```
