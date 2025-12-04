@@ -5,6 +5,7 @@ Oops programming
 2. encapsulation
 3. constructor
 4. shallow vs deep copy
+5. destructor
    
 ### syntax explanation 
 ``` Cpp
