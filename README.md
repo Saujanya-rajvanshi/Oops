@@ -140,3 +140,14 @@ int main() {
     cout << "Hi, I delete everything\n";
 }
 ```
+```cpp
+class Student : public Person {
+public:
+    int rollno;
+
+    void getInfo() {
+        cout << "name : << name << endl;
+        cout << "age : " << age << endl;
+        cout << "rollno : " << rollno << endl;
+}
+```
