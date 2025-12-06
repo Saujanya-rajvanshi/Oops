@@ -151,3 +151,20 @@ public:
         cout << "rollno : " << rollno << endl;
 }
 ```
+##### inherittance
+###### multilevel inheritance
+```cpp
+class GradStudent : public Student {
+public:
+    string researchArea;
+};
+
+int main() {
+    GradStudent s1;
+    s1.name = "tony stark";
+    s1.researchArea = "quantum physics";
+    cout << s1.name << endl;
+    cout << s1.researchArea << endl;
+    return 0;
+}
+```
