@@ -7,6 +7,7 @@ Oops programming
 4. shallow vs deep copy
 5. destructor
 6. inheritance
+7. abstract
    
 ### syntax explanation 
 ``` Cpp
@@ -205,3 +206,24 @@ public:
     string subject;
 }
 ```
+###### abstract
+```#include <iostream>
+#include <string>
+using namespace std;
+
+class Shape { //abstract class
+virtual void draw() = 0; //pure virtual function
+
+};
+
+class Circle : public Shape {
+public:
+void draw() {
+    cout << "drawing a circle\n";
+};
+
+int main() {
+    Circle c1;
+    c1.draw();
+return 0;
+}
