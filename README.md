@@ -169,7 +169,7 @@ int main() {
 }
 ```
 ###### multiple inheritance
-``cpp
+```cpp
 class Student {
 public:
     string name;
