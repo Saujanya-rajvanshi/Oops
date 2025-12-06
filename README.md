@@ -168,3 +168,22 @@ int main() {
     return 0;
 }
 ```
+###### multiple inheritance
+``cpp
+class Student {
+public:
+    string name;
+    int rollno;
+};
+
+class Teacher {
+public:
+    string subject;
+    double salary;
+};
+
+class TA : public Student, public Teacher {
+public:
+    string researchArea;
+};
+```
