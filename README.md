@@ -187,7 +187,7 @@ public:
     string researchArea;
 };
 ```
-
+###### hierarchial inheritance
 ```cpp
 class Person {
 public:
