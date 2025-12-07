@@ -8,6 +8,7 @@ Oops programming
 5. destructor
 6. inheritance
 7. abstract
+8. static keywords
    
 ### syntax explanation 
 ``` Cpp
@@ -225,5 +226,24 @@ void draw() {
 int main() {
     Circle c1;
     c1.draw();
+return 0;
+}
+```
+###### static keywords
+```
+#include <iostream>
+#include <string>
+using namespace std;
+
+void fun() {
+    static int x = 0; //init statement - 1 run
+    cout << "x :" << x << endl;
+    x++;
+}
+
+int main() {
+    fun();
+    fun();
+    fun();
 return 0;
 }
